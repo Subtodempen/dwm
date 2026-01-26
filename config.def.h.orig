@@ -41,14 +41,11 @@ static const int refreshrate = 120;  /* refresh rate (per second) for client mov
 
 #include "fibonacci.c"
 #include "fibonacci.c"
-#include "fibonacci.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
 	{ "[]=",      tile },    /* first entry is default */
 	{ "><>",      NULL },    /* no layout function means floating behavior */
 	{ "[M]",      monocle },
- 	{ "[@]",      spiral },
- 	{ "[\\]",      dwindle },
  	{ "[@]",      spiral },
  	{ "[\\]",      dwindle },
  	{ "[@]",      spiral },
