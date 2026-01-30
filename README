@@ -1,6 +1,6 @@
 dwm - dynamic window manager
 ============================
-dwm is an extremely fast, small, and dynamic window manager for X.
+My fork of DWM with fibonacii tiling builtin and my own gap patching writtin into the fib code. 
 
 
 Requirements
